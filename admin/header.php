@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-4.6.2-dist/css/bootstrap.css">
     <title>Online Gruh udhiyog</title>
-
+    <link rel="stylesheet" href="bootstrap-4.6.2-dist/css/bootstrap.css">
+    <style src="bootstrap-4.6.2-dist/js/bootstrap.bundle.min.js"></style>
 </head>
 <body>
 
     <!-- Navbar start  -->
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                     <a class="navbar-brand" href="#">Navbar</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -38,11 +40,19 @@
                         <li class="nav-item">
                             <a class="nav-link disabled" href="#">Disabled</a>
                         </li>
+                         <li class="nav-item">
+                            <a class="nav-link disabled" href="#">Login</a>
+                        </li>
+                         <li class="nav-item">
+                            <a class="nav-link disabled" href="#">Signup</a>
+                        </li>
                         </ul>
-                        <form class="form-inline my-2 my-lg-0">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                        </form>
+                        <!-- <form class="form-inline my-2 my-lg-0"> -->
+
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Signup</button>
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">login</button>
+                        <!-- </form> -->
+
                     </div>
                 </nav>
     <!-- navbar end  -->
